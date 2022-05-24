@@ -1,0 +1,340 @@
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico">
+      <title>keyboard</title>
+  <link href="/0.82f501c42fe3171c8f73.hot-update.js" rel="prefetch"><link href="/js/0.js" rel="prefetch"><link href="/js/1.js" rel="prefetch"><link href="/js/app.js" rel="preload" as="script"><link href="/js/chunk-vendors.js" rel="preload" as="script"><style type="text/css">
+.auth[data-v-1633063c]
+{
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+.auth input[data-v-1633063c]
+{
+  margin-bottom: 10px;
+}
+.auth button[data-v-1633063c]
+{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.auth button[data-v-1633063c]:active
+{
+  background-color: white;
+}
+.err label[data-v-1633063c]
+{
+  color: #ff0000;
+}
+#reg[data-v-1633063c]
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#key[data-v-1633063c]
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+</style><script charset="utf-8" src="/js/0.js"></script><style type="text/css">
+button[data-v-de5fc1dc] {
+  height: 30px;
+  width: 25px;
+  margin: 7px 2px;
+
+  background-color: #555555;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+button[data-v-de5fc1dc]:active
+{
+  background-color: white;
+}
+</style><style type="text/css">
+#shift[data-v-ca54d1c6] {
+  height: 29px;
+  width: 30px;
+  margin: 5px 3px;
+
+  background-color: #9933FF;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#shift[data-v-ca54d1c6]:active
+{
+  background-color: white;
+}
+#backspace[data-v-ca54d1c6] {
+  height: 30px;
+  width: 30px;
+  margin: 5px 3px;
+
+  background-color: #FF3300;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#backspace[data-v-ca54d1c6]:active
+{
+  background-color: white;
+}
+</style><style type="text/css">
+button[data-v-a6725928] {
+  height: 30px;
+  width: 25px;
+  margin: 7px 2px;
+
+  background-color: #555555;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+button[data-v-a6725928]:active
+{
+  background-color: white;
+}
+</style><style type="text/css">
+#menu3[data-v-0bda2b72] {
+  height: 30px;
+  width: 40px;
+  margin: 5px 3px;
+
+  background-color: #3366CC;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#menu3[data-v-0bda2b72]:active
+{
+  background-color: white;
+}
+#backspace[data-v-0bda2b72] {
+  height: 30px;
+  width: 30px;
+  margin: 5px 3px;
+
+  background-color: #FF3300;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#backspace[data-v-0bda2b72]:active
+{
+  background-color: white;
+}
+</style><style type="text/css">
+#menu3[data-v-0bbdfc70] {
+  height: 30px;
+  width: 40px;
+  margin: 5px 3px;
+
+  background-color: #3366CC;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#menu3[data-v-0bbdfc70]:active
+{
+  background-color: white;
+}
+#backspace[data-v-0bbdfc70] {
+  height: 30px;
+  width: 30px;
+  margin: 5px 3px;
+
+  background-color: #FF3300;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#backspace[data-v-0bbdfc70]:active
+{
+  background-color: white;
+}
+</style><style type="text/css">
+#menu2 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  bottom: 13px;
+
+  background-color: #3366CC;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#menu2:active
+{
+  background-color: white;
+}
+#comma {
+  height: 40px;
+  width: 25px;
+  position: relative;
+  bottom: 13px;
+
+  background-color: #555555;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#comma:active
+{
+  background-color: white;
+}
+#dot {
+  height: 40px;
+  width: 25px;
+  margin: 7px 4px;
+  position: relative;
+  bottom: 13px;
+
+  background-color: #555555;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#dot:active
+{
+  background-color: white;
+}
+#space {
+  height: 40px;
+  width: 180px;
+  margin: 7px 4px;
+
+  background-color: #AAAAAA;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#space:active
+{
+  background-color: white;
+}
+#enter {
+  height: 40px;
+  width: 35px;
+  position: relative;
+  bottom: 13px;
+
+  background-color: #339966;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+}
+#enter:active
+{
+  background-color: white;
+}
+#textarea {
+  height: 100px;
+  width: 300px;
+  margin-top: 100px;
+}
+.hint button {
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  background-color: white;
+  border: 1px solid black;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+#logout
+{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-size: 13px;
+}
+#logout:active
+{
+  background-color: white;
+}
+#nav {
+  padding: 30px;
+}
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+</style></head>
+  <body wfd-invisible="true">
+    <div id="app"><div><h1>Keyboard</h1><hr><button id="logout">Выход</button><div><textarea id="textarea"></textarea><div class="hint"><button id="hint1">"</button><button id="hint2">"</button><button id="hint3">"</button></div><div data-v-ca54d1c6="" class="key-list"><div data-v-ca54d1c6=""><button data-v-de5fc1dc="" data-v-ca54d1c6="">й</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ц</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">у</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">к</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">е</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">н</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">г</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ш</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">щ</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">з</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">х</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ъ</button></div><div data-v-ca54d1c6=""><button data-v-de5fc1dc="" data-v-ca54d1c6="">ф</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ы</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">в</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">а</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">п</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">р</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">о</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">л</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">д</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ж</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">э</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ё</button></div><div data-v-ca54d1c6=""><button data-v-ca54d1c6="" id="shift">⇑</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">я</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ч</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">с</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">м</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">и</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">т</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ь</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">б</button><button data-v-de5fc1dc="" data-v-ca54d1c6="">ю</button><button data-v-ca54d1c6="" id="backspace">×</button></div></div><div><button id="menu2">123</button><button id="space"></button><button id="comma">,</button><button id="dot">.</button><button id="enter">↲</button></div></div></div></div>
+  <script type="text/javascript" src="/js/chunk-vendors.js" wfd-invisible="true"></script><script type="text/javascript" src="/js/app.js" wfd-invisible="true"></script>
+    <style wfd-invisible="true">
+        body
+        {
+            background: #d6eaf8;
+        }
+    </style>
+
+<iframe scrolling="no" frameborder="0" style="border: 0px; height: 50px; width: 48px; left: 761px; top: 109px; z-index: 2147483647; position: absolute; display: none;" src="http://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/kpm/kpm_promo_balloon.html?cssSrc=http%3A%2F%2Fgc.kis.v2.scr.kaspersky-labs.com%2FE3E8934C-235A-4B0E-825A-35A08381A191%2Fkpm%2Ftooltip.css" wfd-invisible="true"></iframe></body></html>
